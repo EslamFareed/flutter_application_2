@@ -92,3 +92,62 @@
 //   onPressed: () {},
 //   child: Text("data"),
 // )
+
+// body: SingleChildScrollView(
+      //   child: Column(
+      //     children: [
+      //       SizedBox(
+      //         height: 50,
+      //         child: ListView.builder(
+      //           scrollDirection: Axis.horizontal,
+      //           itemBuilder: (context, index) {
+      //             return Text("Category");
+      //           },
+      //           itemCount: 10,
+      //         ),
+      //       ),
+      //       ListView.builder(
+      //         shrinkWrap: true,
+      //         physics: NeverScrollableScrollPhysics(),
+      //         // scrollDirection: Axis.horizontal,
+      //         itemBuilder: (context, index) {
+      //           return Card(
+      //             child: ListTile(
+      //               leading: Image.network(
+      //                 products[index].image!,
+      //                 width: 60,
+      //                 height: 40,
+      //                 fit: BoxFit.cover,
+      //               ),
+      //               title: Text(products[index].name!),
+      //               subtitle: Text(products[index].desc!),
+      //               trailing: Text(products[index].price.toString()),
+      //             ),
+      //           );
+      //         },
+      //         itemCount: products.length,
+      //       ),
+          
+          
+      //     ],
+      //   ),
+      // ),
+     // body: GridView.builder(
+      //   gridDelegate:
+      //       SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+      //   itemBuilder: (context, index) {
+      //     return Card(
+      //       child: Column(
+      //         children: [
+      //           Image.network(
+      //             products[index].image!,
+      //             height: 100,
+      //             fit: BoxFit.cover,
+      //           ),
+      //         ],
+      //       ),
+      //     );
+      //   },
+      //   itemCount: products.length,
+      // ),
+    

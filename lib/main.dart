@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/screens/session_6_screen.dart';
 
 import 'screens/home_screen.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: Session6Screen(),
     );
   }
 }
@@ -33,7 +34,6 @@ class MyApp extends StatelessWidget {
 //! Material Button
 //! Text Button
 //! Icon Button
-//! Raised Button
 //! Expanded
 //! Stateless vs Statefull Widget
 //! Statefull life cycle
@@ -48,23 +48,28 @@ class MyApp extends StatelessWidget {
 
 
 
-//? Text Form Field - validation
-//? List view - Grid View
+//! Text Form Field - validation
+//! List view - Grid View
+//! Packages
+//! nested list view + horizental + vertical together in column
+//! Carousel Slider
+
+
 //? Toast
 //? Dialog
 //? Snack bar
-//? Carousel Slider
 
 
 
 
 
-
-
-//? nested list view + horizental + vertical together in column
 
 
 
 //! Models
 //! show some dummy data in our app
 //! XO TASK
+
+
+
+
